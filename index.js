@@ -12,9 +12,9 @@ fs.readFile("./employee.json", "utf8", (err, jsonString) => {
     countHours+=employee.Hours
   });
   const avgHours = countHours /employeeData.length;
-  //console.log("File data:", avgHours);
+  console.log("Average Mean Hours:", avgHours);
 
 const sorted= employeeData.sort((a,b)=> a.Hours- b.Hours)
-console.log(sorted.slice(0,5))
+console.log("five employees with lowest efficiency",sorted.slice(0,5))
 
 })
