@@ -2,4 +2,5 @@
 1) Employee performance problem statement
 
 
-run node index.js
+command to run the code
+ node index.js
